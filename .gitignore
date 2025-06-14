@@ -1,0 +1,24 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS system file
+.DS_Store
+
+# Dataset (not for Git)
+train_val_ds/
+test_ds/
+
+# Virtual environments
+.venv/
+env/
+
+# Logs
+*.log
+
+# VSCode
+.vscode/
+
