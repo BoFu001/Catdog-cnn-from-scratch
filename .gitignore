@@ -8,9 +8,19 @@ __pycache__/
 # macOS system file
 .DS_Store
 
-# Dataset (not for Git)
+# Dataset (excluded from Git)
 train_val_ds/
 test_ds/
+
+# Ignore image files inside dataset folders
+train_val_ds/**/*.jpg
+train_val_ds/**/*.png
+test_ds/**/*.jpg
+test_ds/**/*.png
+
+# Keep placeholder files
+!train_val_ds/**/.gitkeep
+!test_ds/**/.gitkeep
 
 # Virtual environments
 .venv/
