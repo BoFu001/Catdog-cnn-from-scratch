@@ -51,7 +51,7 @@ This notebook builds and evaluates several Convolutional Neural Network (CNN) mo
   - 2,500 dog images: `dog.10000.jpg` to `dog.12499.jpg`
   - These were placed in `test_ds/cats/` and `test_ds/dogs/`
 
-> ⚠️ The test set is completely **unseen** during training and validation, used only for final model evaluation.
+> 🧾 **Note**: Due to file size limitations and licensing restrictions, the image dataset is not included in this repository. Please download it from Kaggle and organize the images as described above. The folders `train_val_ds/` and `test_ds/` are included as empty placeholders to preserve the project’s directory structure—please populate them with the appropriate images before running the code.
 
 ---
 
