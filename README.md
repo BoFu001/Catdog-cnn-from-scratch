@@ -16,9 +16,9 @@
 - [👤 Author’s Note](#-authors-note)
 - [📘 Project Summary](#-project-summary)
 - [📂 Dataset](#-dataset)
+- [🧠 Model Variants and Numbering](#-model-variants-and-numbering)
 - [🏆 Best Results](#-best-results)
 - [🖼️ Visual Results](#-visual-results)
-- [🧠 Model Variants and Numbering](#-model-variants-and-numbering)
 - [▶️ How to Run](#️-how-to-run)
 - [📄 License](#-license)
 
