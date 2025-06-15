@@ -1,4 +1,25 @@
+<img src="img/cover.jpg" width="100%" />
+
 # Cat vs Dog Image Classification – CNN Project Overview
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-Project-blue?logo=github)](https://github.com/BoFu001/catdog-cnn-from-scratch)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Bo%20Fu-blue)](https://www.linkedin.com/in/bofu/)
+![GitHub Repo stars](https://img.shields.io/github/stars/BoFu001/catdog-cnn-from-scratch?style=social)
+
+---
+
+## 📑 Table of Contents
+
+- [👤 Author’s Note](#-authors-note)
+- [🏆 Best Results](#-best-results)
+- [🖼️ Visual Results](#-visual-results)
+- [📘 Project Summary](#-project-summary)
+- [📂 Dataset](#-dataset)
+- [🧠 Model Variants and Numbering](#-model-variants-and-numbering)
+- [▶️ How to Run](#️-how-to-run)
+- [📄 License](#-license)
 
 ---
 
@@ -20,6 +41,29 @@ To build a strong foundation before the program starts, I’m actively developin
 | Model No.   | Model Name                     | Train Accuracy | Val Accuracy | Precision | F1-Score  |
 |-------------|--------------------------------|----------------|--------------|-----------|-----------|
 |   No. 13    | model_v3_img224_augv2_e40_es10 | 95.1%          | 92.0%        |   95.7%   |   94.9%   |
+
+---
+
+### 🖼️ Visual Results
+
+**📈 Training History**  
+_Model 13 – Accuracy & Loss over 40 epochs_
+
+![Training History](img/model13_history.png)
+
+---
+
+**📊 Confusion Matrix**  
+_Model 13 – Evaluated on 5,000 unseen test images_
+
+![Confusion Matrix](img/model13_confusion_matrix.png)
+
+---
+
+**🐾 Visual Predictions**  
+_Model 13 – Predictions on test images (labels shown above each image)_
+
+![Predictions](img/model13_predictions_grid.png)
 
 ---
 
@@ -98,3 +142,13 @@ This notebook builds and evaluates several Convolutional Neural Network (CNN) mo
    - Training curves (accuracy/loss)
    - Confusion matrix with precision and F1-score
    - Visual sample predictions
+
+---
+
+### 📄 License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
+<br><br>
+
+[🔼 Back to Top](#cat-vs-dog-image-classification--cnn-project-overview)
