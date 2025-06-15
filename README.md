@@ -3,7 +3,7 @@
 # Cat vs Dog Image Classification – CNN Project Overview
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-Project-blue?logo=github)](https://github.com/BoFu001/catdog-cnn-from-scratch)
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Bo%20Fu-blue)](https://www.linkedin.com/in/bofu/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/BoFu001/catdog-cnn-from-scratch?style=social)
