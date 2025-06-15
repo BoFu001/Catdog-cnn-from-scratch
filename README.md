@@ -6,6 +6,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Bo%20Fu-blue)](https://www.linkedin.com/in/bofu/)
+[![View on Kaggle](https://img.shields.io/badge/Kaggle-Notebook-blue?logo=kaggle)](https://www.kaggle.com/code/bofu001/catdog-cnn-from-scratch)
 ![GitHub Repo stars](https://img.shields.io/github/stars/BoFu001/catdog-cnn-from-scratch?style=social)
 
 ---
@@ -13,10 +14,10 @@
 ## 📑 Table of Contents
 
 - [👤 Author’s Note](#-authors-note)
-- [🏆 Best Results](#-best-results)
-- [🖼️ Visual Results](#-visual-results)
 - [📘 Project Summary](#-project-summary)
 - [📂 Dataset](#-dataset)
+- [🏆 Best Results](#-best-results)
+- [🖼️ Visual Results](#-visual-results)
 - [🧠 Model Variants and Numbering](#-model-variants-and-numbering)
 - [▶️ How to Run](#️-how-to-run)
 - [📄 License](#-license)
@@ -36,37 +37,6 @@ To build a strong foundation before the program starts, I’m actively developin
 
 ---
 
-### 🏆 Best Results
-
-| Model No.   | Model Name                     | Train Accuracy | Val Accuracy | Precision | F1-Score  |
-|-------------|--------------------------------|----------------|--------------|-----------|-----------|
-|   No. 13    | model_v3_img224_augv2_e40_es10 | 95.1%          | 92.0%        |   95.7%   |   94.9%   |
-
----
-
-### 🖼️ Visual Results
-
-**📈 Training History**  
-_Model 13 – Accuracy & Loss over 40 epochs_
-
-![Training History](img/model13_history.png)
-
----
-
-**📊 Confusion Matrix**  
-_Model 13 – Evaluated on 5,000 unseen test images_
-
-![Confusion Matrix](img/model13_confusion_matrix.png)
-
----
-
-**🐾 Visual Predictions**  
-_Model 13 – Predictions on test images (labels shown above each image)_
-
-![Predictions](img/model13_predictions_grid.png)
-
----
-
 ### 📘 Project Summary
 
 This notebook builds and evaluates several Convolutional Neural Network (CNN) models to classify cat and dog images. The training pipeline includes:
@@ -75,6 +45,7 @@ This notebook builds and evaluates several Convolutional Neural Network (CNN) mo
 - Different data augmentation strategies
 - Training with early stopping and history tracking
 - Final evaluation on an unseen test dataset
+- Also available as a [Kaggle Notebook](https://www.kaggle.com/code/bofu001/catdog-cnn-from-scratch)
 
 ---
 
@@ -119,6 +90,38 @@ This notebook builds and evaluates several Convolutional Neural Network (CNN) mo
 | No. 14     |   model_v3_img256_augv2_e45_es12      | create_model_v3  | 256×256    | data_augmentation_v2 | 45     | early_stop_es12  |
 
 > ⚠️ All models are saved using `ModelCheckpoint` to retain the best validation accuracy.
+
+---
+
+### 🏆 Best Results
+
+| Model No.   | Model Name                     | Train Accuracy | Val Accuracy | Precision | F1-Score  |
+|-------------|--------------------------------|----------------|--------------|-----------|-----------|
+|   No. 13    | model_v3_img224_augv2_e40_es10 | 95.1%          | 92.0%        |   95.7%   |   94.9%   |
+
+---
+
+### 🖼️ Visual Results
+
+**📈 Training History**  
+_Model 13 – Accuracy & Loss over 40 epochs_
+
+![Training History](img/model13_history.png)
+
+---
+
+**📊 Confusion Matrix**  
+_Model 13 – Evaluated on 5,000 unseen test images_
+
+![Confusion Matrix](img/model13_confusion_matrix.png)
+
+---
+
+**🐾 Visual Predictions**  
+_Model 13 – Predictions on test images (labels shown above each image)_
+
+![Predictions](img/model13_predictions_grid.png)
+
 ---
 
 ### ▶️ How to Run
