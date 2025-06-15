@@ -1,4 +1,4 @@
-<img src="img/cover.jpg" width="100%" />
+<img src="img/cover.png" width="100%" />
 
 # Cat vs Dog Image Classification – CNN Project Overview
 
